@@ -1,0 +1,55 @@
+h1 {
+	font-size: 50px;
+    color: #019baf;
+    margin: 2px;
+    text-align: center;
+    font-family: ui-serif;
+}
+
+button {
+	height: 26px;
+	width: 58px;
+    margin-left: 6px;
+}
+
+input {
+	width: 200px;
+    height: 20px;
+}
+
+.container {
+	display: flow-root;
+    position: absolute;
+    align-items: baseline;
+    top: 40%;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+.main {
+	display: flex;
+    justify-content: center;
+}
+
+li {
+	font-family: poppins;
+	font-weight: 300;
+	display: block;
+	margin:  0px 10px 0px 10px;
+	cursor: pointer;
+}
+
+li:hover {
+	color: #019baf;
+}
+
+ul {
+	display: flex;
+}
+
+.footer {
+	position: absolute;
+    top: 90%;
+}
